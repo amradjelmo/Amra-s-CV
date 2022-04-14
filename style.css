@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 800px;
+    height: 1100px;
+    margin: 50px auto;
+    background-color: lightcoral;
+}
+
+.first{
+    position:relative;
+    width:800px;
+    height:200px;
+    background-color: darkgray;
+}
+
+#pic{
+    
+    float:left;
+    height:180px;
+    margin:10px 20px;
+}
+
+.second{
+    width:800px;
+    height:60px;
+    background-color: lightgrey;
+}
+
+.third{
+    float:left;
+    width:300px;
+    height: 840px;
+    background-color: grey;
+    padding:0px;
+}
+
+.third > p,hr,h2,li{
+    margin-left:40px;
+
+}
+
+.fourth{
+    float:right;
+    width:500px;
+    height:840px;
+    background-color: white;
+}
+.fourth > p,h2,hr,ul{
+    margin-left:20px;
+
+}
+
+.lista{
+    margin-left:20px;
+}
+
+.AboutMe{
+    width:500px;
+    float: left;
+    text-align: left;
+    margin: 80px 10px 20px 60px;
+}
